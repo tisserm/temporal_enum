@@ -14,10 +14,8 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
-  spec.metadata["allowed_push_host"] = "http://localhost:3000"
-
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/tisserm/temporal_enum"
+  spec.metadata["source_code_uri"] = "https://github.com/tisserm/temporal_enum/tree/main/lib"
   spec.metadata["changelog_uri"] = "https://github.com/tisserm/temporal_enum/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
@@ -33,7 +31,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  spec.add_dependency "activerecord", ">= 7.0.0"
+  spec.add_dependency "activerecord", "~> 7.0", ">= 7.0.0"
 
   spec.add_development_dependency "sqlite3", "~> 1.4"
   spec.add_development_dependency "with_model", "~> 2.1"

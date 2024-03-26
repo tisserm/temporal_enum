@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     temporal_enum (0.1.0)
-      activerecord (>= 7.0.0)
+      activerecord (~> 7.0, >= 7.0.0)
 
 GEM
   remote: https://rubygems.org/
