@@ -1,0 +1,18 @@
+# This is a work in progress
+# It's hard to guess the signature of Rails' methods and objects since they don't specify them
+
+module TemporalEnum
+  VERSION: String
+
+  @enum_options: Hash[untyped, untyped]
+
+  def self.enum_options : () -> Hash[untyped, untyped]
+
+  module EnumMethods
+    def define_temporal_methods : (String, String, untyped, bool) -> nil
+  end
+
+  module Enum
+    def enum : (String | Symbol | nil, Array[untyped] | Hash[untyped, untyped] | nil, Hash[untyped, untyped]) -> Hash[untyped, untyped]
+  end
+end

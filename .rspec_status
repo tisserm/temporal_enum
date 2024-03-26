@@ -1,0 +1,9 @@
+example_id                        | status | run_time        |
+--------------------------------- | ------ | --------------- |
+./spec/temporal_enum_spec.rb[1:1] | passed | 0.00332 seconds |
+./spec/temporal_enum_spec.rb[1:2] | passed | 0.00071 seconds |
+./spec/temporal_enum_spec.rb[1:3] | passed | 0.00026 seconds |
+./spec/temporal_enum_spec.rb[1:4] | passed | 0.00088 seconds |
+./spec/temporal_enum_spec.rb[1:5] | passed | 0.00047 seconds |
+./spec/temporal_enum_spec.rb[1:6] | passed | 0.00088 seconds |
+./spec/temporal_enum_spec.rb[1:7] | passed | 0.00066 seconds |
