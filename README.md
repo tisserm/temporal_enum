@@ -15,7 +15,7 @@ The main goal of this gem is to replace the `new_book.status_before_type_cast < 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'enum_temporality'
+gem 'temporal_enum'
 ```
 
 And then execute:
